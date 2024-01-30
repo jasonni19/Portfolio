@@ -4,7 +4,7 @@
 #### Description:
 During the building of this program, I utilized the Website Carbon API. Libaries I imported included plotext, requests, validator_collection and pytest.
 
-For my final project, I programmed a Website Energy Usage and Carbon Emission Calculator. The purpose of the Website Energy Usage calculator is to spread awareness of the impact that websites can have on energy usage and carbon emissions on each pageload. This is done by allowing users to input the url of a website of their choice, and the program returns the statistics for energy usage, carbon emissions, and more. The program also creates the visual representation of a bar graph to represent the statistics for energy usage and carbon emissions.
+I programmed a Website Energy Usage and Carbon Emission Calculator. The purpose of the Website Energy Usage calculator is to spread awareness of the impact that websites can have on energy usage and carbon emissions on each pageload. This is done by allowing users to input the url of a website of their choice, and the program returns the statistics for energy usage, carbon emissions, and more. The program also creates the visual representation of a bar graph to represent the statistics for energy usage and carbon emissions.
 
 To begin, in my main function, I utilize a count variable in order to limit the number of websites that the user can input to 2. I made this design choice in order to prevent the user from send too many requests to the API (flooding it). If too many requests are sent to the API at once, it will temporarily shut down. The main function then prompts the user for url to a website. This is stored in the variable url and passed to the validateInput function.
 
