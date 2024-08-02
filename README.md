@@ -2,7 +2,7 @@
 #### Video Demo: https://www.youtube.com/watch?v=GPUbaGSCrOQ&t=8s
 
 #### Description:
-During the building of this program, I utilized the Website Carbon API. Libaries I imported included plotext, requests, validator_collection and pytest.
+During the development of this program, I utilized the Website Carbon API. Libaries I imported included plotext, requests, validator_collection and pytest.
 
 I programmed a Website Energy Usage and Carbon Emission Calculator. The purpose of the Website Energy Usage calculator is to spread awareness of the impact that websites can have on energy usage and carbon emissions on each pageload. This is done by allowing users to input the url of a website of their choice, and the program returns the statistics for energy usage, carbon emissions, and more. The program also creates the visual representation of a bar graph to represent the statistics for energy usage and carbon emissions.
 
